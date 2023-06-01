@@ -19,10 +19,6 @@ jobs:
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-
-          TELEGRAM_ENDPOINT: 'https://api.telegram.org/bot'
-          TELEGRAM_PROXY: ''
-          
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
